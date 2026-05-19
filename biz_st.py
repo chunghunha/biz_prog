@@ -4,3 +4,5 @@ import streamlit as st  # streamlit 라이브러리 임포트
 st.title('첫번째 웹 어플 만들기 👋📺🚋🤶🏾')
 
 "## 이건 부제목"
+
+"- 이건 목록"
