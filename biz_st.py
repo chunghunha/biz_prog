@@ -40,3 +40,13 @@ video_bytes = video_file.read()
 st.video(video_bytes)
 
 st.divider()  # 👈 구분선
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+
+fig, ax = plt.subplots()
+ax.plot(x, y)
+st.pyplot(fig) # 👈 차트 출력
