@@ -27,14 +27,14 @@ st.latex('\int_a^b f(x)dx')
 "$$\int_a^b f(x)dx$$"
 
 '#### :orange[이미지: st.image()]'
-st.image("./data/python설명.jpeg", caption="파이썬 로고", width=300)
+st.image("./data2/python설명.jpeg", caption="파이썬 로고", width=300)
 
 '#### :orange[오디오: st.audio()]'
-st.audio("./data/bombinsound.mp3", format="audio/mpeg", loop=True)
+st.audio("./data2/bombinsound.mp3", format="audio/mpeg", loop=True)
 
 '#### :orange[동영상: st.video()]'
 # 'rb' : 바이너리 모드로 파일 열기
-video_file = open("./data/성당.mp4", "rb")
+video_file = open("./data2/연주.mp4", "rb")
 video_bytes = video_file.read()
 
 st.video(video_bytes)
